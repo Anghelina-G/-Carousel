@@ -1,0 +1,59 @@
+body{
+    background-color: #333333;
+}
+#carousel{
+    height: 500px;
+    width: 1400px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
+    margin: auto;
+}
+
+img{
+    box-shadow: 0 0 2px 2px black;
+}
+.center{
+    position: relative;
+    left: 400px;
+}
+.images picture:nth-child(1){
+    position: absolute;
+    transform: translateX(-35%);
+}
+
+.images picture:nth-child(2){
+    position: absolute;
+    z-index: 1; 
+    transform: scaleY(1.2);
+}
+.images picture:nth-child(3){
+    position: absolute;
+    transform: translateX(35%);
+}
+.controls{
+    font-size: 90px;
+}
+.controls a:nth-child(1){
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    color: rgb(192, 192, 94);
+}
+.controls a:nth-child(2){
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    color: yellow;
+}
+.indicators {
+    font-size: 40px;
+    
+    position: absolute;
+    bottom: 1%;
+    right: 45%;
+    
+}
